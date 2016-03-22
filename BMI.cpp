@@ -23,11 +23,11 @@ string BMI::get_cat(void)
 	bmi = get_BMI();
 
 	if(bmi >= 40 )
-	{return "Obese Class III";}
+	{return "Obese Class III (Very severely obese)";}
 	else if(bmi >=35)
-	{return "Obese Class II";}
+	{return "Obese Class II (Severely obese)";}
 	else if(bmi >=30)
-	{return "Obese Class I";}
+	{return "Obese Class I (Moderately obese)";}
 	else if(bmi >=25)
 	{return "Overweight";}
 	else if(bmi >=18.5)
